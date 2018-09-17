@@ -10,8 +10,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  var newArray = [...array, element];
-  return newArray;
+  var newEndArray = [...array, element];
+  return newEndArray;
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
@@ -21,3 +21,4 @@ function destructivelyAddElementToEndOfArray(array, element) {
 function accessElementInArray(array, i) {
   return array[i];
 }
+
